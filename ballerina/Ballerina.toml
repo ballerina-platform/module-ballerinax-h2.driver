@@ -1,7 +1,7 @@
 [package]
 org = "ballerinax"
 name = "h2.driver"
-version = "1.0.0"
+version = "0.1.0"
 authors = ["Ballerina"]
 keywords = ["H2"]
 repository = "https://github.com/ballerina-platform/module-ballerinax-h2.driver"
