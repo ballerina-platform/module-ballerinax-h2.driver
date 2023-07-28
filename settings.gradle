@@ -13,10 +13,8 @@ plugins {
 
 rootProject.name = 'ballerinax-h2.driver'
 
-include ':h2.driver-native'
 include ':h2.driver-ballerina'
 
-project(':h2.driver-native').projectDir = file('native')
 project(':h2.driver-ballerina').projectDir = file('ballerina')
 
 gradleEnterprise {
