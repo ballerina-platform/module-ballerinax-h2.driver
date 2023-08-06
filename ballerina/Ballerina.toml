@@ -1,21 +1,21 @@
 [package]
 org = "ballerinax"
 name = "h2.driver"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Ballerina"]
 keywords = ["H2"]
 repository = "https://github.com/ballerina-platform/module-ballerinax-h2.driver"
 license = ["Apache-2.0"]
 distribution = "2201.7.0"
 
-[platform.java11]
+[platform.java17]
 graalvmCompatible = true
 
-[[platform.java11.dependency]]
+[[platform.java17.dependency]]
 path = "./lib/h2-2.2.220.jar"
 
-[[platform.java11.dependency]]
+[[platform.java17.dependency]]
 groupId = "io.ballerina.stdlib"
 artifactId = "h2.driver-native"
-version = "1.0.0"
-path = "../native/build/libs/h2.driver-native-1.0.0.jar"
+version = "1.0.1"
+path = "../native/build/libs/h2.driver-native-1.0.1-SNAPSHOT.jar"
