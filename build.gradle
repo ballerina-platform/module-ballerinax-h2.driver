@@ -70,9 +70,13 @@ subprojects {
 
     configurations {
         externalJars
+        jbalTools
     }
 
     dependencies {
+        jbalTools ("org.ballerinalang:jballerina-tools:${ballerinaLangVersion}") {
+            transitive = false
+        }
         externalJars (group: 'com.h2database', name: 'h2', version: "${h2DriverVersion}") {
             transitive = false
         }
