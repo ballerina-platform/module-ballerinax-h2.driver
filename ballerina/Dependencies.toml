@@ -5,12 +5,12 @@
 
 [ballerina]
 dependencies-toml-version = "2"
-distribution-version = "2201.11.0"
+distribution-version = "2201.12.0-20250228-201300-8d411a0f"
 
 [[package]]
 org = "ballerinax"
 name = "h2.driver"
-version = "1.2.0"
+version = "1.2.1"
 modules = [
 	{org = "ballerinax", packageName = "h2.driver", moduleName = "h2.driver"}
 ]
