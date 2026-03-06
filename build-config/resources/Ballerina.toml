@@ -3,8 +3,9 @@ org = "ballerinax"
 name = "h2.driver"
 version = "@toml.version@"
 authors = ["Ballerina"]
-keywords = ["Vendor/H2", "Area/Databases", "Type/Driver"]
+keywords = ["Vendor/H2", "Area/Database", "Type/Driver"]
 repository = "https://github.com/ballerina-platform/module-ballerinax-h2.driver"
+icon = "icon.png"
 license = ["Apache-2.0"]
 distribution = "2201.11.0"
 
