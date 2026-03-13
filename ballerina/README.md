@@ -11,10 +11,6 @@ The H2 driver provides a reliable and high-performance connectivity to H2 databa
 - Secure communication with TLS and authentication
 - GraalVM compatible for native image builds
 
-## Package overview
-
-This Package bundles the latest H2 driver so that `java.jdbc` connector can be used in ballerina projects easily.
-
 ## Compatibility
 
 | |   Version    |
