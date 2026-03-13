@@ -15,8 +15,8 @@ The H2 driver provides a reliable and high-performance connectivity to H2 databa
 
 | |   Version    |
 |:---|:------------:|
-|Ballerina Language | **2201.7.0** |
-|H2 Driver* |  **2.2.220**  |
+|Ballerina Language | **2201.11.0** |
+|H2 Driver* |  **2.3.232**  |
 
 > *H2 is dual licensed and available under the MPL 2.0 (Mozilla Public License Version 2.0) or under the EPL 1.0 (Eclipse Public License).
 
